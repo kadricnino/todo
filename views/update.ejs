@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+<div>
+  <h1 class="title">Make an update</h1>
+  <form action="/update/<%- list.id %>" method="post" class="update-form" id="update-form">
+    Title <input type="text" name="title" id="" value="<%- list.title %>">
+    Description <input type="text" name="description" id="" value="<%- list.description %>">
+    <button type="submit" class="submit-btn">Update</button>
+  </form>
+</div>
+
+<%- include('partials/footer') %>

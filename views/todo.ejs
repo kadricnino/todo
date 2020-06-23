@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="title">Check your things TO DO</h1>
+    <form action="/user" method="post" class="todo-form" id="create-form">
+      Title <input type="text" name="title" id="">
+      Description <input type="text" name="description" id="">
+      <button type="submit" class="submit-btn">Create</button>
+    </form>
+
+  </div>
+</div>
+<div>
+  <table class="table table-sm table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <% todos.forEach(list => { %>
+    <tbody>
+      <tr>
+        <th scope="row"><%= list.id %> </th>
+        <td><%= list.title %> </td>
+        <td><%= list.description %> </td>
+        <td><input type="checkbox"></td>
+        <td><a href="/update/<%= list.id %>">Update</a></td>
+        <td><a href="/delete/<%= list.id %>">Delete</a></td>
+      </tr>
+      <% }) %>
+  </table>
+</div>

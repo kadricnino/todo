@@ -1,0 +1,132 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.index {
+  background-color: #00b0ff;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  margin: 50px 0 0 0;
+}
+
+.col {
+  margin: auto;
+}
+
+p {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  
+}
+
+.image {
+  width: 550px;
+}
+
+input {
+  border: none;
+  background-color: whitesmoke;
+  padding: 5px 75px;
+  padding-left: 5px;
+}
+
+.signup input {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 25px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+}
+
+.signup button {
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+::placeholder {
+  color: black;
+}
+
+.login input {
+  margin: 7px 0;
+  padding: 3px;
+  width: 100%;
+  border: black 1px solid;
+  padding-left: 7px;
+}
+
+.login button {
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+h5 {
+  text-align: center;
+}
+
+.card-img-top {
+  margin-top: 20px;
+}
+
+.card {
+  margin-top: 20%;
+}
+
+.loginImage1 {
+  width: 400px;
+  margin-top: 70%;
+  align-items: center;
+}
+
+.loginImage2 {
+  width: 400px;
+  margin-top: 70%;
+  align-items: center;
+}
+
+.loginBack {
+  background-color: whitesmoke;
+}
+
+.title  {
+  margin: 25px;
+  color: black;
+  text-align: center;
+}
+
+.todo-form {
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.login a{
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+  }
